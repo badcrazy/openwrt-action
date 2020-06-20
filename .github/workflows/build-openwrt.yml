@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: K3 ipk
+name: K3ipk 
 on:
   repository_dispatch:
   release:
