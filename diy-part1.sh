@@ -10,11 +10,11 @@
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-rm -rf package/lean/k3screenctrl
-rm -rf package/lean/k3-brcmfmac4366c-firmware
-git clone https://github.com/lwz322/luci-app-k3screenctrl.git package/lean/luci-app-k3screenctrl
-git clone https://github.com/lwz322/k3screenctrl_build.git package/lean/k3screenctrl
-git clone https://github.com/badcrazy/k3-brcmfmac4366c-firmware.git package/lean/k3-brcmfmac4366c-firmware
+#rm -rf package/lean/k3screenctrl
+#rm -rf package/lean/k3-brcmfmac4366c-firmware
+#git clone https://github.com/lwz322/luci-app-k3screenctrl.git package/lean/luci-app-k3screenctrl
+#git clone https://github.com/lwz322/k3screenctrl_build.git package/lean/k3screenctrl
+#git clone https://github.com/badcrazy/k3-brcmfmac4366c-firmware.git package/lean/k3-brcmfmac4366c-firmware
 git clone https://github.com/fw876/helloworld.git package/lean/luci-app-ssr-plus
 git clone https://github.com/jefferymvp/luci-app-koolproxyR.git package/lean/luci-app-koolproxyR
 git clone https://github.com/badcrazy/luci-app-adguardhome.git package/lean/luci-app-adguardhome
