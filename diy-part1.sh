@@ -22,3 +22,4 @@ git clone https://github.com/Lienol/openwrt-OpenAppFilter.git package/lean/openw
 git clone https://github.com/ledewrt/luci-app-eqos.git package/lean/luci-app-eqos
 git clone https://github.com/Mattraks/openwrt-passwall.git package/lean/lienol
 git clone https://github.com/vernesong/OpenClash.git package/lean/openclash
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git
