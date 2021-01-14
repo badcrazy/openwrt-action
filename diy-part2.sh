@@ -8,6 +8,6 @@
 # Blog: https://p3terx.com
 #============================================================
 
-# Modify default IP
-#sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
-
+# cpu temp
+#sed -i 's/<tr><td width="33%"><%:CPU Info%></td><td id="cpuinfo">-</td></tr>/<tr><td width="33%"><%:CPU Info%></td><td id="cpuinfo">-</td></tr>
+                                <tr><td width="33%"><%:CPU Temperature%></td><td><%=luci.sys.exec("sensors  | grep -E 'temp'")%></td></tr>/g' /usr/lib/lua/luci/view/admin_status/index.htm
