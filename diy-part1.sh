@@ -24,4 +24,4 @@ git clone https://github.com/Mattraks/openwrt-passwall.git package/lean/lienol
 git clone https://github.com/vernesong/OpenClash.git package/lean/openclash
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/dailybonus
 git clone --depth 1 https://github.com/pymumu/smartdns.git package/smartdns
-        git clone --depth 1 -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+git clone --depth 1 -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
