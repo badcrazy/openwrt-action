@@ -9,4 +9,4 @@
 #============================================================
 
 # cpu temp
-sed -i '717 a <tr><td width="33%"><%:CPU Temperature%></td><td><%=luci.sys.exec("sensors  | grep -E 'temp1'")%></td></tr>' feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_status/index.htm
+# sed -i '717 a <tr><td width="33%"><%:CPU Temperature%></td><td><%=luci.sys.exec("sensors  | grep -E 'temp1'")%></td></tr>' feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_status/index.htm
