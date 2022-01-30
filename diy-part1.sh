@@ -26,3 +26,4 @@ git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/d
 git clone https://github.com/garypang13/luci-app-dnsfilter.git package/lean/luci-app-dnsfilter
 git clone https://github.com/pymumu/openwrt-smartdns.git package/smartdns
 git clone --depth 1 -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+git clone https://github.com/linkease/istore.git package/istore
