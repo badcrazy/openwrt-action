@@ -26,4 +26,6 @@ git clone https://github.com/yang229/luci-app-adguardhome.git package/lean/luci-
 # git clone https://github.com/pymumu/openwrt-smartdns.git package/smartdns
 # git clone --depth 1 -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 # git clone https://github.com/linkease/istore.git package/istore
+# 主题
+git clone https://github.com/thinktip/luci-theme-neobird
 rm -rf package/lean/luci-theme-argon
