@@ -17,7 +17,7 @@
 # git clone https://github.com/badcrazy/k3-brcmfmac4366c-firmware.git package/lean/k3-brcmfmac4366c-firmware
 git clone https://github.com/fw876/helloworld.git package/lean/luci-app-ssr-plus
 # git clone https://github.com/jefferymvp/luci-app-koolproxyR.git package/lean/luci-app-koolproxyR
-git clone https://github.com/kongfl888/luci-app-adguardhome.git package/lean/luci-app-adguardhome
+git clone https://github.com/yang229/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 # git clone https://github.com/Lienol/openwrt-OpenAppFilter.git package/lean/openwrt-OpenAppFilter
 # git clone https://github.com/Mattraks/openwrt-passwall.git package/lean/lienol
 # git clone https://github.com/vernesong/OpenClash.git package/lean/openclash
