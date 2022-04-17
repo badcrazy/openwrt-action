@@ -29,3 +29,4 @@ git clone https://github.com/yang229/luci-app-adguardhome.git package/lean/luci-
 # 主题
 git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird
 rm -rf package/lean/luci-theme-argon
+rm -rf package/lean/luci-theme-bootstrap
