@@ -19,8 +19,8 @@ git clone https://github.com/fw876/helloworld.git package/lean/luci-app-ssr-plus
 # git clone https://github.com/jefferymvp/luci-app-koolproxyR.git package/lean/luci-app-koolproxyR
 git clone https://github.com/yang229/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 git clone https://github.com/TorBoxCode/luci-app-eqos.git package/lean/eqos
-# git clone https://github.com/AlexZhuo/luci-app-bandwidthd.git package/lean/luci-app-bandwidthd
-# git clone https://github.com/Lienol/openwrt-OpenAppFilter.git package/lean/openwrt-OpenAppFilter
+git clone https://github.com/AlexZhuo/luci-app-bandwidthd.git package/lean/luci-app-bandwidthd
+# git clone https://github.com/OpenWrt-Actions/OpenAppFilter.git package/lean/openwrt-OpenAppFilter
 # git clone https://github.com/Mattraks/openwrt-passwall.git package/lean/lienol
 # git clone https://github.com/vernesong/OpenClash.git package/lean/openclash
 # git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/dailybonus
