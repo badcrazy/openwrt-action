@@ -17,10 +17,10 @@
 # git clone https://github.com/badcrazy/k3-brcmfmac4366c-firmware.git package/lean/k3-brcmfmac4366c-firmware
 git clone https://github.com/fw876/helloworld.git;main package/luci-app-ssr-plus
 # git clone https://github.com/jefferymvp/luci-app-koolproxyR.git package/lean/luci-app-koolproxyR
-git clone https://github.com/yang229/luci-app-adguardhome.git package/lean/luci-app-adguardhome
-git clone https://github.com/TorBoxCode/luci-app-eqos.git package/lean/eqos
-git clone https://github.com/AlexZhuo/luci-app-bandwidthd.git package/lean/luci-app-bandwidthd
-# git clone https://github.com/OpenWrt-Actions/OpenAppFilter.git package/lean/openwrt-OpenAppFilter
+git clone https://github.com/yang229/luci-app-adguardhome.git package/luci-app-adguardhome
+# git clone https://github.com/TorBoxCode/luci-app-eqos.git package/eqos
+# git clone https://github.com/AlexZhuo/luci-app-bandwidthd.git package/luci-app-bandwidthd
+# git clone https://github.com/OpenWrt-Actions/OpenAppFilter.git package/openwrt-OpenAppFilter
 # git clone https://github.com/Mattraks/openwrt-passwall.git package/lean/lienol
 # git clone https://github.com/vernesong/OpenClash.git package/lean/openclash
 # git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/dailybonus
@@ -29,6 +29,5 @@ git clone https://github.com/AlexZhuo/luci-app-bandwidthd.git package/lean/luci-
 # git clone --depth 1 -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 # git clone https://github.com/linkease/istore.git package/istore
 # 主题
-git clone https://github.com/thinktip/luci-theme-neobird.git package/luci-theme-neobird
 rm -rf package/lean/luci-theme-argon
 rm -rf package/lean/luci-theme-bootstrap
