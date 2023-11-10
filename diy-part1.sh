@@ -15,7 +15,7 @@
 # git clone https://github.com/lwz322/luci-app-k3screenctrl.git package/lean/luci-app-k3screenctrl
 # git clone https://github.com/lwz322/k3screenctrl_build.git package/lean/k3screenctrl
 # git clone https://github.com/badcrazy/k3-brcmfmac4366c-firmware.git package/lean/k3-brcmfmac4366c-firmware
-git clone https://github.com/fw876/helloworld.git package/lean/luci-app-ssr-plus
+git clone https://github.com/fw876/helloworld.git;main package/luci-app-ssr-plus
 # git clone https://github.com/jefferymvp/luci-app-koolproxyR.git package/lean/luci-app-koolproxyR
 git clone https://github.com/yang229/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 git clone https://github.com/TorBoxCode/luci-app-eqos.git package/lean/eqos
