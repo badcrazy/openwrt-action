@@ -26,6 +26,11 @@ git clone https://github.com/yang229/luci-app-adguardhome.git package/luci-app-a
 # git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/dailybonus
 # git clone https://github.com/garypang13/luci-app-dnsfilter.git package/lean/luci-app-dnsfilter
 # git clone https://github.com/pymumu/openwrt-smartdns.git package/smartdns
+
+echo '移除bcm53xx中的其他机型'
+sed -i '421,453d' target/linux/bcm53xx/image/Makefile
+sed -i '140,412d' target/linux/bcm53xx/image/Makefile
+sed -i 's/$(USB3_PACKAGES) k3screenctrl/luci-app-k3screenctrl/g' target/linux/bcm53xx/image/Makefile
 # git clone --depth 1 -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 # git clone https://github.com/linkease/istore.git package/istore
 # 主题
